@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Node.js: Launch Nodemon (Debug)",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "nodemon",
+      "env": {
+        "NODE_OPTIONS": "--inspect"
+      },
+      "cwd": "${workspaceFolder}",
+      "internalConsoleOptions": "openOnSessionStart",
+      "skipFiles": ["<node_internals>/**", "node_modules/**"],
+      "restart": true,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "Server is running at http://localhost:([0-9]+)",
+        "uriFormat": "http://localhost:%s/swagger/"
+      }
+    }
+  ]
+}

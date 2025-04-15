@@ -1,0 +1,55 @@
+{
+  "name": "ts-node-samples-express-restful",
+  "version": "1.0.0",
+  "description": "Proof of Concept for a RESTful API made with Node.js LTS/Jod, Express.js 4 in TypeScript.",
+  "engines": {
+    "node": "22.14.0"
+  },
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "lint": "eslint .",
+    "test": "jest --detectOpenHandles",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "Nano Taboada",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "helmet": "^8.1.0",
+    "body-parser": "^2.2.0",
+    "node-cache": "^5.1.2",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7",
+    "dotenv": "^16.5.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "ts-node": "^10.9.2",
+    "ts-jest": "^29.3.1",
+    "supertest": "^7.1.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.2",
+    "prettier": "^3.5.3",
+    "@types/node": "^22.14.0",
+    "@types/express": "^5.0.1",
+    "@types/cors": "^2.8.17",
+    "@types/body-parser": "^1.19.5",
+    "@types/eslint": "^9.6.1",
+    "@types/jest": "^29.5.14",
+    "@types/sequelize": "^4.28.20",
+    "@types/supertest": "^6.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.29.1",
+    "@typescript-eslint/parser": "^8.29.1",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8"
+  }
+}
