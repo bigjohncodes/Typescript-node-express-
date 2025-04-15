@@ -69,8 +69,6 @@ PORT=9999
 Once running, Swagger UI is available at:  
 **http://localhost:9000/swagger/**
 
-![Swagger Docs](assets/images/ts-node-samples-express-restful-swagger.png)
-
 ---
 
 ## Development Environment
